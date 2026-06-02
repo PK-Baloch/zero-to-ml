@@ -1,4 +1,4 @@
-"""# Lists:---> A list in Python is smilar to arrays in other languages.
+# Lists:---> A list in Python is smilar to arrays in other languages.
 #      ---> It can stor many values of same data type as well different data types.
 #      ---> Lists are mutable (means we can chage its value at a spacific index).
 marks=[45, 50, 53, 24, 89,78]
@@ -72,7 +72,7 @@ movies=[]
 mov=movies.append(input("enter your first fav movie name:"))
 mov=movies.append(input("enter your second fav movie name:"))
 mov=movies.append(input("enter your third fav movie name:"))
-print(movies)"""
+print(movies)
 
 # 2: WAP to check if a list contains palindrome of elements.
 list1=[1,3,2,3,1]
