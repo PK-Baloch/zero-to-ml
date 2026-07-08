@@ -1,4 +1,17 @@
 # binary search
+
+# Description:
+# Binary Search works on a sorted array. 
+# It repeatedly divides the search space into two halves until the target element is found or the search space becomes empty.
+
+# Time Complexity:
+# - Best Case: O(1)
+# - Average Case: O(log n)
+# - Worst Case: O(log n)
+
+# Space Complexity:
+# - O(1)  # Iterative implementation
+
 def binary_search(arr,target):
     start=0
     end=len(arr)-1
