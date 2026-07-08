@@ -1,4 +1,16 @@
 #Linear Search:
+
+# Description:
+# Searches for the target element by checking each element one by one.
+
+# Time Complexity:
+# - Best Case: O(1)
+# - Average Case: O(n)
+# - Worst Case: O(n)
+
+# Space Complexity:
+# - O(1)
+
 def linear_search(arr,target):
     for i in range(len(arr)):
         if(arr[i]==target):
